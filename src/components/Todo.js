@@ -8,7 +8,6 @@ export default function Todo({ item, addNewNote, note }) {
     if (item.done) {
       addNewNote([
         { ...item, done: !item.done },
-        ,
         ...note.filter((i) => i.id !== item.id),
       ]);
     } else {
