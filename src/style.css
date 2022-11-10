@@ -1,0 +1,59 @@
+.header {
+  text-align: center;
+  background-color: chocolate;
+  padding: 10px 0;
+}
+.add-note {
+  padding: 10px 5px;
+  width: 30%;
+}
+.add-note-box {
+  display: flex;
+  justify-content: center;
+}
+.note-btn {
+  padding: 0;
+  background: none;
+  margin-left: 5px;
+  border: none;
+  cursor: pointer;
+}
+.fas {
+  font-size: 40px;
+}
+.note-list {
+  background-color: chocolate;
+  width: 25%;
+  margin: 30px auto;
+  border-radius: 10px;
+  min-height: 100px;
+  padding: 10px;
+}
+.note-list-item {
+  background-color: antiquewhite;
+  padding: 10px;
+  margin: 10px auto;
+  list-style: none;
+  position: relative;
+}
+.note-list-done {
+  background-color: darkgray;
+  padding: 10px;
+  margin: 10px auto;
+  list-style: none;
+  position: relative;
+  text-decoration: line-through;
+}
+
+.delete {
+  position: absolute;
+  right: 5px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.done {
+  position: absolute;
+  right: 25px;
+  font-size: 22px;
+  cursor: pointer;
+}
