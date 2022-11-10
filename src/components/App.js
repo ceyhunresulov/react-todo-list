@@ -6,7 +6,7 @@ import Todos from "./Todos";
 function App() {
   const [value, setValue] = useState("");
   const [note, setNote] = useState(
-    JSON.parse(localStorage.getItem("notes")) && []
+    JSON.parse(localStorage.getItem("notes")) || []
   );
   const addNewValue = (newValue) => {
     setValue(newValue);
